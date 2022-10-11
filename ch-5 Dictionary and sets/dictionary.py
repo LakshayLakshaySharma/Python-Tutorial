@@ -6,28 +6,28 @@ myDictionary = {
     "anotherDictionary" : {"lakshay" : "python"}   #adding a dictionary in a dictionary 
 }
 
-# myDictionary["anotherDictionary"] = [324,34,34]
-# print(myDictionary["anotherDictionary"])
+myDictionary["anotherDictionary"] = [324,34,34]
+print(myDictionary["anotherDictionary"])
 
 
 # methods of dictionary 
 # 1. key method  returns the keys of the dictionary 
-# print(myDictionary.keys())
+print(myDictionary.keys())
 
 # 2. value method return the value of the dictionary 
-# print(myDictionary.values())
+print(myDictionary.values())
 
 # 3. items method retutn the whole dictionary in a tuple form
-# print(myDictionary.items())
+print(myDictionary.items())
 
 # 4. update dictionary 
 
-# print(myDictionary)
-# updatedDict = {
-#     "updated keys" : 'updated value',
-# }
-# myDictionary.update(updatedDict)
-# print(myDictionary)
+print(myDictionary)
+updatedDict = {
+    "updated keys" : 'updated value',
+}
+myDictionary.update(updatedDict)
+print(myDictionary)
 
 # 5. get method 
 print(myDictionary.get('fast'))
