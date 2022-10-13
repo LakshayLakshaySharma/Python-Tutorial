@@ -4,13 +4,7 @@ while i <5:
     print('greater than 5')
     i = i + 1
 
-# # while loop
-fruits = ['apple', 'mango', 'banana', 'grapes', 'kiwi']
-i = 0
 
-while i < len(fruits):
-    print(fruits[i])
-    i = i + 1
 
 # for loop
 fruits = ['apple', 'mango', 'banana', 'grapes', 'kiwi']
