@@ -1,25 +1,25 @@
-# recurion 
+# # recurion 
 
-# factorial 
-# facrotial is a product of all integer numner 
-# for eg : factorial of 5 = 5 *4*3*2*1 = 120
+# # factorial 
+# # facrotial is a product of all integer numner 
+# # for eg : factorial of 5 = 5 *4*3*2*1 = 120
 
 
-n =5 
-product = 1
-for i in range(n):
-    product = product * (i+1)
-print(product)
+# n =5 
+# product = 1
+# for i in range(n):
+#     product = product * (i+1)
+# print(product)
 
-# factorial in function syntex
+# # factorial in function syntex
 
-def factorial(n):
-    product = 1 
-    for i in range(n):
-        product = product * (i+1)
-    return product
+# def factorial(n):
+#     product = 1 
+#     for i in range(n):
+#         product = product * (i+1)
+#     return product
 
-print(factorial(10))
+# print(factorial(10))
 
 
 def factorial_recursive(n):
